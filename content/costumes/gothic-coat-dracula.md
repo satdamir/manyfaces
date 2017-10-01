@@ -5,8 +5,8 @@ product_name=Готическое пальто Дракула.
 preview_desc=Это роскошное пальто придётся по вкусу любителям мрачной ...
 price=1000
 root=costumes/gothic-coat-dracula
-preview_file_name=img-1406.jpg
-detailed_file_names=img-1406.jpg,img-4491.jpg,img-4544.jpg,img-4622.jpg
+preview_file_name=img-4622-prev.jpg
+detailed_file_names=img-4622.jpg,img-1406.jpg,img-4491.jpg,img-4544.jpg
 type=costume
 status=published
 ~~~~~~

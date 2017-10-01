@@ -3,14 +3,17 @@
 <#include "menu.ftl">
 
 <div class="row">
-    <div class="detailed col-sm-6 col-md-6">
+    <div class="detailed col-sm-5 col-md-5">
         <img class="img-responsive" src="${content.rootpath}images/${content.root}/${content.preview_file_name}"
              alt="${content.product_name}" data-toggle="modal" data-target="#product-modal">
     <#if content.discount??>
         <span class="discount">-${content.discount}%</span>
     </#if>
+        <div class="product-fullscreen" data-toggle="modal" data-target="#product-modal"><span
+                class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
+        </div>
     </div>
-    <div class="detailed col-sm-6 col-md-6">
+    <div class="detailed col-sm-7 col-md-7">
         <h3>${content.product_name}</h3>
     ${content.body}
     <#if content.discount??>

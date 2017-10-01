@@ -22,9 +22,9 @@
                     href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>dresses.html">Платья</a></li>
             <li class="${((content.page!"") == "costumes")?string("active", "")}"><a
                     href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>costumes.html">Костюмы</a></li>
-            <li class="${((content.page!"") == "projects")?string("active", "")}"><a
-                    href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>costumes.html">Фотопроекты</a>
-            </li>
+            <#--<li class="${((content.page!"") == "projects")?string("active", "")}"><a-->
+                    <#--href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>costumes.html">Фотопроекты</a>-->
+            <#--</li>-->
             <li class="${((content.page!"") == "contacts")?string("active", "")}"><a
                     href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>contacts.html">Контакты</a></li>
         </ul>

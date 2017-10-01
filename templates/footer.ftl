@@ -10,6 +10,7 @@
 <script src="${content.rootpath}js/jquery-1.11.1.min.js"></script>
 <script src="${content.rootpath}js/bootstrap.js"></script>
 <script src="${content.rootpath}js/prettify.js"></script>
+<script src="${content.rootpath}js/manyfaces.js"></script>
 
 </body>
 </html>
