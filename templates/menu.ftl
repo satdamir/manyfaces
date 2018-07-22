@@ -13,18 +13,18 @@
     <div class="pull-left nav-left"></div>
     <div class="collapse navbar-collapse" id="navbar">
         <ul class="nav navbar-nav">
-            <li class="${(content.page??)?string("", "active")}"><a
-                    href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>index.html">Спецпредложения</a>
+            <li class="${((content.page!"dresses") == "dresses")?string("active","")}"><a
+                    href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>index.html">Платья</a>
             </li>
-            <li class="${((content.page!"") == "exclusive")?string("active", "")}"><a
-                    href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>exclusive.html">Эксклюзив</a></li>
-            <li class="${((content.page!"") == "dresses")?string("active", "")}"><a
-                    href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>dresses.html">Платья</a></li>
+        <#--<li class="${((content.page!"") == "dresses")?string("active", "")}"><a-->
+        <#--href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>index.html">Платья</a></li>-->
             <li class="${((content.page!"") == "costumes")?string("active", "")}"><a
                     href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>costumes.html">Костюмы</a></li>
-            <#--<li class="${((content.page!"") == "projects")?string("active", "")}"><a-->
-                    <#--href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>costumes.html">Фотопроекты</a>-->
-            <#--</li>-->
+        <#--<li class="${((content.page!"") == "exclusive")?string("active", "")}"><a-->
+        <#--href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>exclusive.html">Эксклюзив</a></li>-->
+        <#--<li class="${((content.page!"") == "projects")?string("active", "")}"><a-->
+        <#--href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>costumes.html">Фотопроекты</a>-->
+        <#--</li>-->
             <li class="${((content.page!"") == "contacts")?string("active", "")}"><a
                     href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>contacts.html">Контакты</a></li>
         </ul>
