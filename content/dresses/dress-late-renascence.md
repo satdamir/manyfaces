@@ -1,7 +1,7 @@
 page=dresses
 index=00300
 special_index=NO
-product_name=Платье Премиум. Поздний Ренессанс, стилизация.
+product_name=Платье Премиум. Поздний Ренессанс
 preview_desc=Безусловная гордость и изюминка нашей коллекции! Платье выполнено ...
 price=4000
 root=dresses/dress-late-renascence
